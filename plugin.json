@@ -1,0 +1,46 @@
+{
+  "id": "country-boards",
+  "name": "Country boards",
+  "version": "1.0.0",
+  "api": 1,
+  "description": "Local job boards: Reed (UK), Adzuna (19 countries), Jobs2Careers and USAJOBS (US), Jobindex (Denmark) and Jobbird (Netherlands).",
+  "author": "jobslop",
+  "homepage": "https://github.com/JobSlop/jobslop-plugin-country-boards",
+  "python": "plugin.py",
+  "enabled_by_default": true,
+  "settings": [
+    {
+      "key": "reed_key",
+      "label": "Reed API key",
+      "help": "Reed (UK). Free:",
+      "link": "https://www.reed.co.uk/developers/jobseeker"
+    },
+    {
+      "key": "adzuna_id",
+      "label": "Adzuna App ID",
+      "type": "text"
+    },
+    {
+      "key": "adzuna_key",
+      "label": "Adzuna App Key",
+      "help": "Adzuna (19 countries). Free:",
+      "link": "https://developer.adzuna.com/signup"
+    },
+    {
+      "key": "usajobs_key",
+      "label": "USAJOBS API key"
+    },
+    {
+      "key": "usajobs_email",
+      "label": "Email you registered with",
+      "type": "text",
+      "help": "US government jobs. Free:",
+      "link": "https://developer.usajobs.gov/apirequest/"
+    }
+  ],
+  "translations": {
+    "nl": "lang/nl.json",
+    "es": "lang/es.json",
+    "da": "lang/da.json"
+  }
+}
